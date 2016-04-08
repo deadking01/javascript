@@ -11,7 +11,7 @@ function addLoadEvent(func){
 }
 function insertAfter(newElelment,targetElement){
 	var parent =targetElement.parentNode;
-	if(parentNode.lastChild ==targetElement){
+	if(parent.lastChild ==targetElement){
 		parent.appentChild(newElelment);
 	}else{
 		parent.insertBefore(newElelment,targetElement.nextSibling);
