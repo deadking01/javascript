@@ -87,7 +87,7 @@ function moveElement(elementId,final_x,final_y,interval){
 function prepareSlideshow(){
 	if(!document.getElementsByTagName) return false;
 	if(!document.getElementById) return false;
-	if(!document.getElementById"intro") return false;
+	if(!document.getElementById("intro")) return false;
 	var intro=document.getElementById("intro");
 	var slideshow=document.createElement("div");
 	slideshow.setAllAttrivute("id","slideshow");
