@@ -1,10 +1,10 @@
 function addLoadEvent(func){
-	var oldownload=window.oldownload;
+	var oldonload=window.oldonload;
 	if(typeof window.onload!='function'){
 		window.onload=func;
 	}else{
 		window.onload=function(){
-			window.oldownload();
+			window.oldonload();
 			func();
 		}
 	}
