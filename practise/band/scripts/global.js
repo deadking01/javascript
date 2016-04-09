@@ -91,7 +91,7 @@ function prepareSlideshow(){
 	var intro=document.getElementById("intro");
 	var slideshow=document.createElement("div");
 	slideshow.setAttribute("id","slideshow");
-	var frame=document.getElementById("img");
+	var frame=document.createElement("img");
 	frame.setAttribute("src","images/frame.gif");
 	frame.setAttribute("alt","");
 	frame.setAttribute("id","frame");
