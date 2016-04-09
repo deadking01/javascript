@@ -90,7 +90,7 @@ function prepareSlideshow(){
 	if(!document.getElementById("intro")) return false;
 	var intro=document.getElementById("intro");
 	var slideshow=document.createElement("div");
-	slideshow.setAllAttribute("id","slideshow");
+	slideshow.setAttribute("id","slideshow");
 	var frame=document.getElementById("img");
 	frame.setAttribute("src","images/frame.gif");
 	frame.setAttribute("alt","");
