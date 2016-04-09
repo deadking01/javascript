@@ -4,7 +4,7 @@ function addLoadEvent(func){
 		window.onload=func;
 	}else{
 		window.onload=function(){
-			oldownload();
+			window.oldownload();
 			func();
 		}
 	}
