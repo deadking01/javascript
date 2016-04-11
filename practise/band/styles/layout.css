@@ -6,7 +6,7 @@ display: block;
 	margin: 0;
 }
 body{
-	margin:.1em 10%;
+  margin: 1em 10%;
 	background-image: url(../images/background.gif);
 	background-attachment: fixed;
 	background-position: top left;
@@ -60,7 +60,7 @@ article img{
 	outline-style: solid;
 }
 #about header{
-	background-image: url(../images/lineup.gif)
+  background-image: url(../images/lineup.gif);
 }
 #photos header{
 	background-image: url(../images/basshead.gif);
@@ -82,11 +82,14 @@ article img{
 	border-width: 0;
 	outline-width: 0;
 }
-#frame{
-	position:absolute;
-	top:0;
-	left: 0;
-	z-index: 99;
+
+#frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  border-width: 0;
+  outline-width: 0;
 }
 #imagegallery li{
 	display: inline;
