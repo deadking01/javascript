@@ -23,18 +23,18 @@ header{
 	background-color: #334;
 	border-color: #667;
 }
-header nav{
-	color: #ec8;
-	background-color: #789;
-	border-color: #667;
+header nav {
+  color: #455;
+  background-color: #789;
+  border-color: #667;
 }
 article{
 	color:#223;
 	background-color: #edc;
 	border-color: #667;
 }
-header nav ul{
-	border-color: #994;
+header nav ul {
+  border-color: #99a;
 }
 header nav a:link,header nav a:visited{
 	color: #eef;
@@ -45,9 +45,9 @@ header nav a:hover{
 	color: #445;
 	background-color: #eb6;
 }
-header nav a:active{
-	color:667;
-	background-color: #ec8;
+header nav a:active {
+  color: #667;
+  background-color: #ec8;
 }
 article img{
 	border-color: #ba9;
@@ -76,7 +76,15 @@ tr.odd td{
 	color: #223;
 	background-color: #ec8;
 }
-tr.hightlight td{
-	color: #223;
-	background-color: #cba;
+tr.highlight td {
+  color: #223;
+  background-color: #cba;
+}
+
+
+
+
+
+input.placeholder {
+  color: grey;
 }
